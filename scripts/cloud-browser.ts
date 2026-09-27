@@ -1,0 +1,78 @@
+import assert from 'node:assert/strict';
+import { mkdirSync } from 'node:fs';
+import { randomUUID } from 'node:crypto';
+import { chromium } from 'playwright-core';
+import { createUser,deleteUser,listModels,deleteHardwareModel } from '../server/db/database.js';
+import { supabase } from '../server/db/supabase.js';
+import { config } from '../server/config.js';
+const base=process.env.BASE_URL ?? 'https://buildit-pc-builder.vercel.app';
+const id=randomUUID(), password=randomUUID()+'Aa1!';
+const admin=await createUser({email:`browser-${id}@example.com`,password,role:'admin'});
+const browser=await chromium.launch({headless:true,executablePath:'C:/Program Files/Google/Chrome/Application/chrome.exe',args:['--enable-unsafe-swiftshader']});
+const context=await browser.newContext({viewport:{width:1440,height:1000}});
+const page=await context.newPage();
+const errors:string[]=[];
+page.on('pageerror', error=>errors.push(error.message));
+mkdirSync('artifacts',{recursive:true});
+try {
+ await page.goto(base+'/admin/login');
+ await page.locator('#admin-email').fill(admin.email);
+ await page.locator('#admin-password').fill(password);
+ await page.locator('#admin-login-form button[type=submit]').click();
+ await page.waitForSelector('#admin-page');
+ await page.screenshot({path:'artifacts/admin-desktop.png',fullPage:true});
+ await page.goto(base+'/app');
+ await page.waitForSelector('#part-case');
+ assert.equal(await page.locator('#parts select').count(),9);
+ assert.equal(await page.locator('#part-case option').count(),1);
+ await page.locator('#save-draft').click();
+ await page.locator('#draft-name').fill('Browser persistence check');
+ await page.locator('#save-draft-form button[type=submit]').click();
+ await page.waitForSelector('.saved-draft');
+ await page.reload();
+ await page.waitForSelector('.saved-draft');
+ assert.match(await page.locator('#draft-list').innerText(),/Browser persistence check/);
+ await page.locator('[data-load-draft]').click();
+ await page.locator('#analyze-performance').click();
+ await page.waitForSelector('#analysis-dialog[open]');
+ await page.keyboard.press('Escape');
+ await page.screenshot({path:'artifacts/builder-desktop.png',fullPage:true});
+ await page.setViewportSize({width:390,height:844});
+ await page.screenshot({path:'artifacts/builder-mobile.png',fullPage:true});
+ assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth+1),true,'Mobile horizontal overflow');
+ await page.setViewportSize({width:1440,height:1000});
+ await page.goto(base+'/admin/upload');
+ await page.waitForSelector('#model-file');
+ await page.locator('#model-file').setInputFiles({name:'verification.obj',mimeType:'text/plain',buffer:Buffer.from('v 0 0 0\nv 0.2 0 0\nv 0 0.2 0\nv 0 0 0.2\nf 1 2 3\nf 1 3 4\nf 1 4 2\nf 2 4 3\n')});
+ await page.locator('#model-name').fill('Temporary browser fixture');
+ await page.locator('#model-kind').selectOption('case');
+ await page.locator('#preview-upload-model').click();
+ await page.waitForSelector('#finish-upload-model');
+ await page.locator('#finish-upload-model').click();
+ await page.waitForURL(/\/admin\/3d-editor\//,{timeout:60000});
+ await page.waitForSelector('#save-transform');
+ await page.locator('#save-transform').click();
+ await page.waitForFunction(()=>document.querySelector('#transform-message')?.textContent?.includes('saved'));
+ await page.goto(base+'/app');
+ await page.waitForSelector('#part-case option:nth-child(2)', {state:'attached'});
+ await page.locator('#part-case').selectOption({label:'Temporary browser fixture'});
+ await page.waitForFunction(()=>document.querySelector('#stage')?.getAttribute('data-parts')==='1');
+ await page.locator('#reset').click();
+ await page.waitForFunction(()=>document.querySelector('#stage')?.getAttribute('data-parts')==='0');
+ await page.locator('[data-delete-draft]').click();
+ await page.waitForFunction(()=>document.querySelectorAll('.saved-draft').length===0);
+ assert.deepEqual(errors,[]);
+ console.log('PASS: live browser login, admin, empty builder, draft save/reload/delete, analysis dialog, mobile layout, upload/3D editor/model mounting/reset; no page errors.');
+} catch(error) {
+ console.log('Browser failure URL: '+page.url());
+ console.log((await page.locator('body').innerText()).slice(-2000));
+ await page.screenshot({path:'artifacts/browser-failure.png',fullPage:true});
+ throw error;
+} finally {
+ await browser.close();
+ for(const model of await listModels()) if(model.createdBy===admin.id) {
+   await supabase.storage.from(config.modelBucket).remove([model.modelPath]);
+   await deleteHardwareModel(model.id);
+ }
+ await deleteUser(admin.id);
+}

@@ -1,0 +1,17 @@
+node_modules/
+dist/
+artifacts/
+.env
+.env.*
+!.env.example
+*.sqlite
+*.sqlite-*
+/data/uploads/
+assets/blender/*.blend
+
+.vercel/
+.deployment-access.txt
+.vercel
+.env*
+
+supabase/.temp/

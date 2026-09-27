@@ -1,0 +1,9 @@
+.env*
+!.env.example
+data
+artifacts
+supabase/.temp
+scripts
+*.sqlite*
+
+.deployment-access.txt
