@@ -1,0 +1,1726 @@
+{
+ "cpu/amd-ryzen-5-5500": {
+  "socket": "AM4",
+  "package_mm": [
+   40,
+   40
+  ],
+  "pin_len_mm": 1.3,
+  "substrate_top_z_mm": 2.3,
+  "ihs_top_z_mm": 3.9,
+  "total_height_mm": 3.9,
+  "pins": 1328,
+  "note": "origin = package centre, pin tips at z=0, IHS faces +Z",
+  "bbox_mm": {
+   "min": [
+    -20.0,
+    -20.0,
+    0.0
+   ],
+   "max": [
+    20.0,
+    20.0,
+    3.945
+   ],
+   "size": [
+    40.0,
+    40.0,
+    3.95
+   ]
+  }
+ },
+ "cpu/amd-ryzen-5-5600gt": {
+  "socket": "AM4",
+  "package_mm": [
+   40,
+   40
+  ],
+  "pin_len_mm": 1.3,
+  "substrate_top_z_mm": 2.3,
+  "ihs_top_z_mm": 3.9,
+  "total_height_mm": 3.9,
+  "pins": 1328,
+  "note": "origin = package centre, pin tips at z=0, IHS faces +Z",
+  "bbox_mm": {
+   "min": [
+    -20.0,
+    -20.0,
+    0.0
+   ],
+   "max": [
+    20.0,
+    20.0,
+    3.945
+   ],
+   "size": [
+    40.0,
+    40.0,
+    3.95
+   ]
+  }
+ },
+ "cpu/amd-ryzen-7-5700x": {
+  "socket": "AM4",
+  "package_mm": [
+   40,
+   40
+  ],
+  "pin_len_mm": 1.3,
+  "substrate_top_z_mm": 2.3,
+  "ihs_top_z_mm": 3.9,
+  "total_height_mm": 3.9,
+  "pins": 1328,
+  "note": "origin = package centre, pin tips at z=0, IHS faces +Z",
+  "bbox_mm": {
+   "min": [
+    -20.0,
+    -20.0,
+    0.0
+   ],
+   "max": [
+    20.0,
+    20.0,
+    3.945
+   ],
+   "size": [
+    40.0,
+    40.0,
+    3.95
+   ]
+  }
+ },
+ "cpu/amd-ryzen-5-4500": {
+  "socket": "AM4",
+  "package_mm": [
+   40,
+   40
+  ],
+  "pin_len_mm": 1.3,
+  "substrate_top_z_mm": 2.3,
+  "ihs_top_z_mm": 3.9,
+  "total_height_mm": 3.9,
+  "pins": 1328,
+  "note": "origin = package centre, pin tips at z=0, IHS faces +Z",
+  "bbox_mm": {
+   "min": [
+    -20.0,
+    -20.0,
+    0.0
+   ],
+   "max": [
+    20.0,
+    20.0,
+    3.945
+   ],
+   "size": [
+    40.0,
+    40.0,
+    3.95
+   ]
+  }
+ },
+ "cpu/amd-ryzen-7-7700": {
+  "socket": "AM5",
+  "package_mm": [
+   40,
+   40
+  ],
+  "pads": 1584,
+  "caps": 96,
+  "ihs_top_z_mm": 2.69,
+  "total_height_mm": 2.69,
+  "note": "origin = package centre, pad plane at z~0, IHS faces +Z",
+  "bbox_mm": {
+   "min": [
+    -20.0,
+    -20.0,
+    -0.03
+   ],
+   "max": [
+    20.0,
+    20.0,
+    2.735
+   ],
+   "size": [
+    40.0,
+    40.0,
+    2.77
+   ]
+  }
+ },
+ "cpu/amd-ryzen-5-8400f": {
+  "socket": "AM5",
+  "package_mm": [
+   40,
+   40
+  ],
+  "pads": 1584,
+  "caps": 96,
+  "ihs_top_z_mm": 2.69,
+  "total_height_mm": 2.69,
+  "note": "origin = package centre, pad plane at z~0, IHS faces +Z",
+  "bbox_mm": {
+   "min": [
+    -20.0,
+    -20.0,
+    -0.03
+   ],
+   "max": [
+    20.0,
+    20.0,
+    2.735
+   ],
+   "size": [
+    40.0,
+    40.0,
+    2.77
+   ]
+  }
+ },
+ "cpu/amd-ryzen-5-9600x": {
+  "socket": "AM5",
+  "package_mm": [
+   40,
+   40
+  ],
+  "pads": 1584,
+  "caps": 96,
+  "ihs_top_z_mm": 2.69,
+  "total_height_mm": 2.69,
+  "note": "origin = package centre, pad plane at z~0, IHS faces +Z",
+  "bbox_mm": {
+   "min": [
+    -20.0,
+    -20.0,
+    -0.03
+   ],
+   "max": [
+    20.0,
+    20.0,
+    2.735
+   ],
+   "size": [
+    40.0,
+    40.0,
+    2.77
+   ]
+  }
+ },
+ "cpu/amd-ryzen-7-7800x3d": {
+  "socket": "AM5",
+  "package_mm": [
+   40,
+   40
+  ],
+  "pads": 1584,
+  "caps": 96,
+  "ihs_top_z_mm": 2.69,
+  "total_height_mm": 2.69,
+  "note": "origin = package centre, pad plane at z~0, IHS faces +Z",
+  "bbox_mm": {
+   "min": [
+    -20.0,
+    -20.0,
+    -0.03
+   ],
+   "max": [
+    20.0,
+    20.0,
+    2.735
+   ],
+   "size": [
+    40.0,
+    40.0,
+    2.77
+   ]
+  }
+ },
+ "cpu/intel-core-i3-12100f": {
+  "socket": "LGA1700",
+  "package_mm": [
+   45,
+   37.5
+  ],
+  "pads": 1386,
+  "ihs_top_z_mm": 3.1,
+  "total_height_mm": 3.1,
+  "note": "origin = package centre, pad plane at z~0, IHS faces +Z; 45x37.5 rectangle (app fits 40mm box so scales ~0.89)",
+  "bbox_mm": {
+   "min": [
+    -22.5,
+    -18.75,
+    -0.03
+   ],
+   "max": [
+    22.5,
+    18.75,
+    3.145
+   ],
+   "size": [
+    45.0,
+    37.5,
+    3.17
+   ]
+  }
+ },
+ "cpu/intel-core-i5-13400f": {
+  "socket": "LGA1700",
+  "package_mm": [
+   45,
+   37.5
+  ],
+  "pads": 1386,
+  "ihs_top_z_mm": 3.1,
+  "total_height_mm": 3.1,
+  "note": "origin = package centre, pad plane at z~0, IHS faces +Z; 45x37.5 rectangle (app fits 40mm box so scales ~0.89)",
+  "bbox_mm": {
+   "min": [
+    -22.5,
+    -18.75,
+    -0.03
+   ],
+   "max": [
+    22.5,
+    18.75,
+    3.145
+   ],
+   "size": [
+    45.0,
+    37.5,
+    3.17
+   ]
+  }
+ },
+ "cpu/intel-core-i5-14400f": {
+  "socket": "LGA1700",
+  "package_mm": [
+   45,
+   37.5
+  ],
+  "pads": 1386,
+  "ihs_top_z_mm": 3.1,
+  "total_height_mm": 3.1,
+  "note": "origin = package centre, pad plane at z~0, IHS faces +Z; 45x37.5 rectangle (app fits 40mm box so scales ~0.89)",
+  "bbox_mm": {
+   "min": [
+    -22.5,
+    -18.75,
+    -0.03
+   ],
+   "max": [
+    22.5,
+    18.75,
+    3.145
+   ],
+   "size": [
+    45.0,
+    37.5,
+    3.17
+   ]
+  }
+ },
+ "cpu/intel-core-i5-14600k": {
+  "socket": "LGA1700",
+  "package_mm": [
+   45,
+   37.5
+  ],
+  "pads": 1386,
+  "ihs_top_z_mm": 3.1,
+  "total_height_mm": 3.1,
+  "note": "origin = package centre, pad plane at z~0, IHS faces +Z; 45x37.5 rectangle (app fits 40mm box so scales ~0.89)",
+  "bbox_mm": {
+   "min": [
+    -22.5,
+    -18.75,
+    -0.03
+   ],
+   "max": [
+    22.5,
+    18.75,
+    3.145
+   ],
+   "size": [
+    45.0,
+    37.5,
+    3.17
+   ]
+  }
+ },
+ "cpu/intel-core-i7-14700k": {
+  "socket": "LGA1700",
+  "package_mm": [
+   45,
+   37.5
+  ],
+  "pads": 1386,
+  "ihs_top_z_mm": 3.1,
+  "total_height_mm": 3.1,
+  "note": "origin = package centre, pad plane at z~0, IHS faces +Z; 45x37.5 rectangle (app fits 40mm box so scales ~0.89)",
+  "bbox_mm": {
+   "min": [
+    -22.5,
+    -18.75,
+    -0.03
+   ],
+   "max": [
+    22.5,
+    18.75,
+    3.145
+   ],
+   "size": [
+    45.0,
+    37.5,
+    3.17
+   ]
+  }
+ },
+ "gpu/nvidia-geforce-rtx-5060": {
+  "kind": "gpu",
+  "design": "hawk",
+  "frame": "x=length (bracket at 0), y=thickness (cooler -y, backplate +y), z=height (fingers at ~0)",
+  "L_mm": 240,
+  "H_mm": 120,
+  "T_mm": 42,
+  "pcb_center_y_mm": -0.9,
+  "power": [
+   "8pin"
+  ],
+  "fans": 2,
+  "app_autofit": 1.2305,
+  "suggested_modelTransform": {
+   "scale": 0.8127,
+   "position_m": [
+    -0.024613,
+    -0.003001,
+    0
+   ]
+  },
+  "bbox_mm": {
+   "min": [
+    0.0,
+    -44.7,
+    0.0
+   ],
+   "max": [
+    240.8,
+    2.6,
+    121.9
+   ],
+   "size": [
+    240.8,
+    47.3,
+    121.9
+   ]
+  }
+ },
+ "gpu/nvidia-geforce-rtx-3050": {
+  "kind": "gpu",
+  "design": "carbon",
+  "frame": "x=length (bracket at 0), y=thickness (cooler -y, backplate +y), z=height (fingers at ~0)",
+  "L_mm": 212,
+  "H_mm": 116,
+  "T_mm": 38,
+  "pcb_center_y_mm": -0.9,
+  "power": [
+   "8pin"
+  ],
+  "fans": 2,
+  "app_autofit": 1.2448,
+  "suggested_modelTransform": {
+   "scale": 0.8033,
+   "position_m": [
+    -0.025839,
+    -0.002927,
+    0
+   ]
+  },
+  "bbox_mm": {
+   "min": [
+    0.0,
+    -39.0,
+    0.0
+   ],
+   "max": [
+    212.832,
+    2.6,
+    120.5
+   ],
+   "size": [
+    212.83,
+    41.6,
+    120.5
+   ]
+  }
+ },
+ "gpu/nvidia-geforce-rtx-5060-ti-8gb": {
+  "kind": "gpu",
+  "design": "inlay",
+  "frame": "x=length (bracket at 0), y=thickness (cooler -y, backplate +y), z=height (fingers at ~0)",
+  "L_mm": 245,
+  "H_mm": 124,
+  "T_mm": 44,
+  "pcb_center_y_mm": -0.9,
+  "power": [
+   "8pin"
+  ],
+  "fans": 2,
+  "app_autofit": 1.2017,
+  "suggested_modelTransform": {
+   "scale": 0.8322,
+   "position_m": [
+    -0.022053,
+    -0.003157,
+    0
+   ]
+  },
+  "bbox_mm": {
+   "min": [
+    0.0,
+    -45.6,
+    0.0
+   ],
+   "max": [
+    245.8,
+    2.6,
+    124.823
+   ],
+   "size": [
+    245.8,
+    48.2,
+    124.82
+   ]
+  }
+ },
+ "gpu/nvidia-geforce-rtx-5060-ti-16gb": {
+  "kind": "gpu",
+  "design": "inlay",
+  "frame": "x=length (bracket at 0), y=thickness (cooler -y, backplate +y), z=height (fingers at ~0)",
+  "L_mm": 262,
+  "H_mm": 128,
+  "T_mm": 48,
+  "pcb_center_y_mm": -0.9,
+  "power": [
+   "8pin"
+  ],
+  "fans": 2,
+  "app_autofit": 1.1416,
+  "suggested_modelTransform": {
+   "scale": 0.876,
+   "position_m": [
+    -0.016292,
+    -0.003508,
+    0
+   ]
+  },
+  "bbox_mm": {
+   "min": [
+    0.0,
+    -49.6,
+    0.0
+   ],
+   "max": [
+    262.8,
+    2.6,
+    128.823
+   ],
+   "size": [
+    262.8,
+    52.2,
+    128.82
+   ]
+  }
+ },
+ "gpu/nvidia-geforce-rtx-3060-12gb": {
+  "kind": "gpu",
+  "design": "ridge",
+  "frame": "x=length (bracket at 0), y=thickness (cooler -y, backplate +y), z=height (fingers at ~0)",
+  "L_mm": 242,
+  "H_mm": 122,
+  "T_mm": 40,
+  "pcb_center_y_mm": -0.9,
+  "power": [
+   "8pin"
+  ],
+  "fans": 2,
+  "app_autofit": 1.2217,
+  "suggested_modelTransform": {
+   "scale": 0.8185,
+   "position_m": [
+    -0.023844,
+    -0.003048,
+    0
+   ]
+  },
+  "bbox_mm": {
+   "min": [
+    0.0,
+    -42.3,
+    0.0
+   ],
+   "max": [
+    242.8,
+    2.6,
+    122.778
+   ],
+   "size": [
+    242.8,
+    44.9,
+    122.78
+   ]
+  }
+ },
+ "gpu/amd-radeon-rx-7600": {
+  "kind": "gpu",
+  "design": "fighter",
+  "frame": "x=length (bracket at 0), y=thickness (cooler -y, backplate +y), z=height (fingers at ~0)",
+  "L_mm": 243,
+  "H_mm": 124,
+  "T_mm": 42,
+  "pcb_center_y_mm": -0.9,
+  "power": [
+   "8pin"
+  ],
+  "fans": 2,
+  "app_autofit": 1.2014,
+  "suggested_modelTransform": {
+   "scale": 0.8324,
+   "position_m": [
+    -0.022025,
+    -0.003159,
+    0
+   ]
+  },
+  "bbox_mm": {
+   "min": [
+    0.0,
+    -43.4,
+    0.0
+   ],
+   "max": [
+    243.8,
+    2.6,
+    124.854
+   ],
+   "size": [
+    243.8,
+    46.0,
+    124.85
+   ]
+  }
+ },
+ "gpu/amd-radeon-rx-7800-xt": {
+  "kind": "gpu",
+  "design": "hellhound",
+  "frame": "x=length (bracket at 0), y=thickness (cooler -y, backplate +y), z=height (fingers at ~0)",
+  "L_mm": 300,
+  "H_mm": 135,
+  "T_mm": 54,
+  "pcb_center_y_mm": -0.9,
+  "power": [
+   "8pin",
+   "8pin"
+  ],
+  "fans": 3,
+  "app_autofit": 0.994,
+  "suggested_modelTransform": {
+   "scale": 1.006,
+   "position_m": [
+    0.000788,
+    -0.004548,
+    0
+   ]
+  },
+  "bbox_mm": {
+   "min": [
+    0.0,
+    -57.76,
+    0.0
+   ],
+   "max": [
+    300.8,
+    2.6,
+    135.778
+   ],
+   "size": [
+    300.8,
+    60.36,
+    135.78
+   ]
+  }
+ },
+ "gpu/nvidia-geforce-gtx-1650": {
+  "kind": "gpu",
+  "design": "phoenix",
+  "frame": "x=length (bracket at 0), y=thickness (cooler -y, backplate +y), z=height (fingers at ~0)",
+  "L_mm": 172,
+  "H_mm": 111,
+  "T_mm": 36,
+  "pcb_center_y_mm": -0.9,
+  "power": [],
+  "fans": 1,
+  "app_autofit": 1.2438,
+  "suggested_modelTransform": {
+   "scale": 0.804,
+   "position_m": [
+    -0.025752,
+    -0.002932,
+    0
+   ]
+  },
+  "bbox_mm": {
+   "min": [
+    0.0,
+    -37.6,
+    -0.1
+   ],
+   "max": [
+    172.832,
+    2.6,
+    120.5
+   ],
+   "size": [
+    172.83,
+    40.2,
+    120.6
+   ]
+  }
+ },
+ "gpu/nvidia-geforce-gtx-1660-super": {
+  "kind": "gpu",
+  "design": "slash",
+  "frame": "x=length (bracket at 0), y=thickness (cooler -y, backplate +y), z=height (fingers at ~0)",
+  "L_mm": 236,
+  "H_mm": 118,
+  "T_mm": 40,
+  "pcb_center_y_mm": -0.9,
+  "power": [
+   "8pin"
+  ],
+  "fans": 2,
+  "app_autofit": 1.2407,
+  "suggested_modelTransform": {
+   "scale": 0.806,
+   "position_m": [
+    -0.025489,
+    -0.002948,
+    0
+   ]
+  },
+  "bbox_mm": {
+   "min": [
+    0.0,
+    -42.0,
+    0.0
+   ],
+   "max": [
+    236.8,
+    2.6,
+    120.9
+   ],
+   "size": [
+    236.8,
+    44.6,
+    120.9
+   ]
+  }
+ },
+ "gpu/nvidia-geforce-rtx-4060-ti": {
+  "kind": "gpu",
+  "design": "fe_silver",
+  "frame": "x=length (bracket at 0), y=thickness (cooler -y, backplate +y), z=height (fingers at ~0)",
+  "L_mm": 240,
+  "H_mm": 112,
+  "T_mm": 40,
+  "pcb_center_y_mm": -0.9,
+  "power": [
+   "8pin"
+  ],
+  "fans": 2,
+  "app_autofit": 1.2448,
+  "suggested_modelTransform": {
+   "scale": 0.8033,
+   "position_m": [
+    -0.025839,
+    -0.002927,
+    0
+   ]
+  },
+  "bbox_mm": {
+   "min": [
+    0.0,
+    -41.4,
+    0.0
+   ],
+   "max": [
+    240.8,
+    2.6,
+    120.5
+   ],
+   "size": [
+    240.8,
+    44.0,
+    120.5
+   ]
+  }
+ },
+ "gpu/nvidia-geforce-rtx-4070-super": {
+  "kind": "gpu",
+  "design": "fe_flow",
+  "frame": "x=length (bracket at 0), y=thickness (cooler -y, backplate +y), z=height (fingers at ~0)",
+  "L_mm": 244,
+  "H_mm": 112,
+  "T_mm": 40,
+  "pcb_center_y_mm": -0.9,
+  "power": [
+   "12v"
+  ],
+  "fans": 1,
+  "app_autofit": 1.2255,
+  "suggested_modelTransform": {
+   "scale": 0.816,
+   "position_m": [
+    -0.024175,
+    -0.001528,
+    0
+   ]
+  },
+  "bbox_mm": {
+   "min": [
+    0.0,
+    -40.9,
+    0.0
+   ],
+   "max": [
+    244.8,
+    4.1,
+    120.5
+   ],
+   "size": [
+    244.8,
+    45.0,
+    120.5
+   ]
+  }
+ },
+ "gpu/nvidia-geforce-rtx-5070-ti": {
+  "kind": "gpu",
+  "design": "trio",
+  "frame": "x=length (bracket at 0), y=thickness (cooler -y, backplate +y), z=height (fingers at ~0)",
+  "L_mm": 305,
+  "H_mm": 138,
+  "T_mm": 58,
+  "pcb_center_y_mm": -0.9,
+  "power": [
+   "12v"
+  ],
+  "fans": 3,
+  "app_autofit": 0.9646,
+  "suggested_modelTransform": {
+   "scale": 1.0367,
+   "position_m": [
+    0.004817,
+    -0.004793,
+    0
+   ]
+  },
+  "bbox_mm": {
+   "min": [
+    0.0,
+    -59.6,
+    0.0
+   ],
+   "max": [
+    305.8,
+    2.6,
+    138.778
+   ],
+   "size": [
+    305.8,
+    62.2,
+    138.78
+   ]
+  }
+ },
+ "gpu/amd-radeon-rx-6600": {
+  "kind": "gpu",
+  "design": "swft",
+  "frame": "x=length (bracket at 0), y=thickness (cooler -y, backplate +y), z=height (fingers at ~0)",
+  "L_mm": 232,
+  "H_mm": 118,
+  "T_mm": 38,
+  "pcb_center_y_mm": -0.9,
+  "power": [
+   "8pin"
+  ],
+  "fans": 2,
+  "app_autofit": 1.2407,
+  "suggested_modelTransform": {
+   "scale": 0.806,
+   "position_m": [
+    -0.025489,
+    -0.002948,
+    0
+   ]
+  },
+  "bbox_mm": {
+   "min": [
+    0.0,
+    -39.2,
+    0.0
+   ],
+   "max": [
+    232.8,
+    2.6,
+    120.9
+   ],
+   "size": [
+    232.8,
+    41.8,
+    120.9
+   ]
+  }
+ },
+ "gpu/amd-radeon-rx-6700-xt": {
+  "kind": "gpu",
+  "design": "rdna2",
+  "frame": "x=length (bracket at 0), y=thickness (cooler -y, backplate +y), z=height (fingers at ~0)",
+  "L_mm": 267,
+  "H_mm": 116,
+  "T_mm": 44,
+  "pcb_center_y_mm": -0.9,
+  "power": [
+   "8pin",
+   "8pin"
+  ],
+  "fans": 2,
+  "app_autofit": 1.1202,
+  "suggested_modelTransform": {
+   "scale": 0.8927,
+   "position_m": [
+    -0.014102,
+    -0.003641,
+    0
+   ]
+  },
+  "bbox_mm": {
+   "min": [
+    0.0,
+    -45.8,
+    0.0
+   ],
+   "max": [
+    267.8,
+    2.6,
+    120.5
+   ],
+   "size": [
+    267.8,
+    48.4,
+    120.5
+   ]
+  }
+ },
+ "gpu/amd-radeon-rx-9060-xt": {
+  "kind": "gpu",
+  "design": "pulse",
+  "frame": "x=length (bracket at 0), y=thickness (cooler -y, backplate +y), z=height (fingers at ~0)",
+  "L_mm": 250,
+  "H_mm": 126,
+  "T_mm": 46,
+  "pcb_center_y_mm": -0.9,
+  "power": [
+   "8pin"
+  ],
+  "fans": 2,
+  "app_autofit": 1.1826,
+  "suggested_modelTransform": {
+   "scale": 0.8456,
+   "position_m": [
+    -0.02029,
+    -0.003265,
+    0
+   ]
+  },
+  "bbox_mm": {
+   "min": [
+    0.0,
+    -47.8,
+    0.0
+   ],
+   "max": [
+    250.8,
+    2.6,
+    126.835
+   ],
+   "size": [
+    250.8,
+    50.4,
+    126.84
+   ]
+  }
+ },
+ "gpu/amd-radeon-rx-9070-xt": {
+  "kind": "gpu",
+  "design": "nitro",
+  "frame": "x=length (bracket at 0), y=thickness (cooler -y, backplate +y), z=height (fingers at ~0)",
+  "L_mm": 320,
+  "H_mm": 140,
+  "T_mm": 66,
+  "pcb_center_y_mm": -0.9,
+  "power": [
+   "8pin",
+   "8pin"
+  ],
+  "fans": 3,
+  "app_autofit": 0.8499,
+  "suggested_modelTransform": {
+   "scale": 1.1767,
+   "position_m": [
+    0.023212,
+    -0.005913,
+    0
+   ]
+  },
+  "bbox_mm": {
+   "min": [
+    0.0,
+    -68.0,
+    0.0
+   ],
+   "max": [
+    320.8,
+    2.6,
+    140.778
+   ],
+   "size": [
+    320.8,
+    70.6,
+    140.78
+   ]
+  }
+ },
+ "gpu/intel-arc-b580": {
+  "kind": "gpu",
+  "design": "arc",
+  "frame": "x=length (bracket at 0), y=thickness (cooler -y, backplate +y), z=height (fingers at ~0)",
+  "L_mm": 272,
+  "H_mm": 118,
+  "T_mm": 40,
+  "pcb_center_y_mm": -0.9,
+  "power": [
+   "8pin"
+  ],
+  "fans": 2,
+  "app_autofit": 1.0996,
+  "suggested_modelTransform": {
+   "scale": 0.9094,
+   "position_m": [
+    -0.011901,
+    -0.003775,
+    0
+   ]
+  },
+  "bbox_mm": {
+   "min": [
+    0.0,
+    -41.8,
+    0.0
+   ],
+   "max": [
+    272.826,
+    2.6,
+    120.9
+   ],
+   "size": [
+    272.83,
+    44.4,
+    120.9
+   ]
+  }
+ },
+ "motherboard/gigabyte-b550m-ds3h": {
+  "kind": "motherboard",
+  "ff": "mATX",
+  "socket": "AM4",
+  "ddr": 4,
+  "dimm_slots": 4,
+  "pcb_mm": [
+   244.0,
+   244.0,
+   1.6
+  ],
+  "cpu_plane_z_mm": 6.0,
+  "slot_pcie_origin_mm": [
+   95.386,
+   75.734,
+   9.5
+  ],
+  "frame": "board-local: x across (I/O at x=0), y up, z out of PCB",
+  "bbox_mm": {
+   "min": [
+    -0.0,
+    0.0,
+    0.0
+   ],
+   "max": [
+    244.0,
+    244.0,
+    25.6
+   ],
+   "size": [
+    244.0,
+    244.0,
+    25.6
+   ]
+  }
+ },
+ "motherboard/gigabyte-b550m-k": {
+  "kind": "motherboard",
+  "ff": "mATX",
+  "socket": "AM4",
+  "ddr": 4,
+  "dimm_slots": 4,
+  "pcb_mm": [
+   244.0,
+   244.0,
+   1.6
+  ],
+  "cpu_plane_z_mm": 6.0,
+  "slot_pcie_origin_mm": [
+   95.386,
+   75.734,
+   9.5
+  ],
+  "frame": "board-local: x across (I/O at x=0), y up, z out of PCB",
+  "bbox_mm": {
+   "min": [
+    -0.0,
+    0.0,
+    0.0
+   ],
+   "max": [
+    244.0,
+    244.0,
+    25.6
+   ],
+   "size": [
+    244.0,
+    244.0,
+    25.6
+   ]
+  }
+ },
+ "motherboard/gigabyte-a520m-k-v2": {
+  "kind": "motherboard",
+  "ff": "mATX",
+  "socket": "AM4",
+  "ddr": 4,
+  "dimm_slots": 2,
+  "pcb_mm": [
+   244.0,
+   244.0,
+   1.6
+  ],
+  "cpu_plane_z_mm": 6.0,
+  "slot_pcie_origin_mm": [
+   95.386,
+   75.734,
+   9.5
+  ],
+  "frame": "board-local: x across (I/O at x=0), y up, z out of PCB",
+  "bbox_mm": {
+   "min": [
+    -0.0,
+    0.0,
+    0.0
+   ],
+   "max": [
+    244.0,
+    244.0,
+    25.6
+   ],
+   "size": [
+    244.0,
+    244.0,
+    25.6
+   ]
+  }
+ },
+ "motherboard/gigabyte-b650m-d3hp": {
+  "kind": "motherboard",
+  "ff": "mATX",
+  "socket": "AM5",
+  "ddr": 5,
+  "dimm_slots": 4,
+  "pcb_mm": [
+   244.0,
+   244.0,
+   1.6
+  ],
+  "cpu_plane_z_mm": 6.0,
+  "slot_pcie_origin_mm": [
+   95.386,
+   75.734,
+   9.5
+  ],
+  "frame": "board-local: x across (I/O at x=0), y up, z out of PCB",
+  "bbox_mm": {
+   "min": [
+    -0.0,
+    0.0,
+    0.0
+   ],
+   "max": [
+    244.0,
+    244.0,
+    25.6
+   ],
+   "size": [
+    244.0,
+    244.0,
+    25.6
+   ]
+  }
+ },
+ "motherboard/msi-b550m-a-pro": {
+  "kind": "motherboard",
+  "ff": "mATX",
+  "socket": "AM4",
+  "ddr": 4,
+  "dimm_slots": 2,
+  "pcb_mm": [
+   244.0,
+   244.0,
+   1.6
+  ],
+  "cpu_plane_z_mm": 6.0,
+  "slot_pcie_origin_mm": [
+   95.386,
+   75.734,
+   9.5
+  ],
+  "frame": "board-local: x across (I/O at x=0), y up, z out of PCB",
+  "bbox_mm": {
+   "min": [
+    -0.0,
+    0.0,
+    0.0
+   ],
+   "max": [
+    244.0,
+    244.0,
+    25.6
+   ],
+   "size": [
+    244.0,
+    244.0,
+    25.6
+   ]
+  }
+ },
+ "motherboard/gigabyte-b650m-h": {
+  "kind": "motherboard",
+  "ff": "mATX",
+  "socket": "AM5",
+  "ddr": 5,
+  "dimm_slots": 2,
+  "pcb_mm": [
+   244.0,
+   244.0,
+   1.6
+  ],
+  "cpu_plane_z_mm": 6.0,
+  "slot_pcie_origin_mm": [
+   95.386,
+   75.734,
+   9.5
+  ],
+  "frame": "board-local: x across (I/O at x=0), y up, z out of PCB",
+  "bbox_mm": {
+   "min": [
+    -0.0,
+    0.0,
+    0.0
+   ],
+   "max": [
+    244.0,
+    244.0,
+    25.6
+   ],
+   "size": [
+    244.0,
+    244.0,
+    25.6
+   ]
+  }
+ },
+ "motherboard/msi-pro-b650m-p": {
+  "kind": "motherboard",
+  "ff": "mATX",
+  "socket": "AM5",
+  "ddr": 5,
+  "dimm_slots": 4,
+  "pcb_mm": [
+   244.0,
+   244.0,
+   1.6
+  ],
+  "cpu_plane_z_mm": 6.0,
+  "slot_pcie_origin_mm": [
+   95.386,
+   75.734,
+   9.5
+  ],
+  "frame": "board-local: x across (I/O at x=0), y up, z out of PCB",
+  "bbox_mm": {
+   "min": [
+    -0.0,
+    0.0,
+    0.0
+   ],
+   "max": [
+    244.0,
+    244.0,
+    25.6
+   ],
+   "size": [
+    244.0,
+    244.0,
+    25.6
+   ]
+  }
+ },
+ "motherboard/msi-mag-b650-tomahawk-wifi": {
+  "kind": "motherboard",
+  "ff": "ATX",
+  "socket": "AM5",
+  "ddr": 5,
+  "dimm_slots": 4,
+  "pcb_mm": [
+   244.0,
+   305.0,
+   1.6
+  ],
+  "cpu_plane_z_mm": 5.5,
+  "slot_pcie_origin_mm": [
+   95.386,
+   116.414,
+   9.5
+  ],
+  "frame": "board-local: x across (I/O at x=0), y up, z out of PCB",
+  "bbox_mm": {
+   "min": [
+    -0.0,
+    0.0,
+    0.0
+   ],
+   "max": [
+    244.0,
+    305.0,
+    29.6
+   ],
+   "size": [
+    244.0,
+    305.0,
+    29.6
+   ]
+  }
+ },
+ "motherboard/gigabyte-h610m-k-v2": {
+  "kind": "motherboard",
+  "ff": "mATX",
+  "socket": "LGA1700",
+  "ddr": 5,
+  "dimm_slots": 2,
+  "pcb_mm": [
+   244.0,
+   244.0,
+   1.6
+  ],
+  "cpu_plane_z_mm": 6.0,
+  "slot_pcie_origin_mm": [
+   95.386,
+   75.734,
+   9.5
+  ],
+  "frame": "board-local: x across (I/O at x=0), y up, z out of PCB",
+  "bbox_mm": {
+   "min": [
+    -0.0,
+    0.0,
+    0.0
+   ],
+   "max": [
+    244.0,
+    244.0,
+    25.6
+   ],
+   "size": [
+    244.0,
+    244.0,
+    25.6
+   ]
+  }
+ },
+ "motherboard/gigabyte-b760m-d3hp-ddr4": {
+  "kind": "motherboard",
+  "ff": "mATX",
+  "socket": "LGA1700",
+  "ddr": 4,
+  "dimm_slots": 4,
+  "pcb_mm": [
+   244.0,
+   244.0,
+   1.6
+  ],
+  "cpu_plane_z_mm": 6.0,
+  "slot_pcie_origin_mm": [
+   95.386,
+   75.734,
+   9.5
+  ],
+  "frame": "board-local: x across (I/O at x=0), y up, z out of PCB",
+  "bbox_mm": {
+   "min": [
+    -0.0,
+    0.0,
+    0.0
+   ],
+   "max": [
+    244.0,
+    244.0,
+    25.6
+   ],
+   "size": [
+    244.0,
+    244.0,
+    25.6
+   ]
+  }
+ },
+ "motherboard/gigabyte-b450m-ds3h-v2": {
+  "kind": "motherboard",
+  "ff": "mATX",
+  "socket": "AM4",
+  "ddr": 4,
+  "dimm_slots": 4,
+  "pcb_mm": [
+   244.0,
+   244.0,
+   1.6
+  ],
+  "cpu_plane_z_mm": 6.0,
+  "slot_pcie_origin_mm": [
+   95.386,
+   75.734,
+   9.5
+  ],
+  "frame": "board-local: x across (I/O at x=0), y up, z out of PCB",
+  "bbox_mm": {
+   "min": [
+    -0.0,
+    0.0,
+    0.0
+   ],
+   "max": [
+    244.0,
+    244.0,
+    25.6
+   ],
+   "size": [
+    244.0,
+    244.0,
+    25.6
+   ]
+  }
+ },
+ "motherboard/asrock-b450m-hdv-r4": {
+  "kind": "motherboard",
+  "ff": "mATX",
+  "socket": "AM4",
+  "ddr": 4,
+  "dimm_slots": 2,
+  "pcb_mm": [
+   244.0,
+   244.0,
+   1.6
+  ],
+  "cpu_plane_z_mm": 6.0,
+  "slot_pcie_origin_mm": [
+   95.386,
+   75.734,
+   9.5
+  ],
+  "frame": "board-local: x across (I/O at x=0), y up, z out of PCB",
+  "bbox_mm": {
+   "min": [
+    -0.0,
+    0.0,
+    0.0
+   ],
+   "max": [
+    244.0,
+    244.0,
+    25.6
+   ],
+   "size": [
+    244.0,
+    244.0,
+    25.6
+   ]
+  }
+ },
+ "motherboard/asus-tuf-gaming-b550m-plus-wifi-ii": {
+  "kind": "motherboard",
+  "ff": "mATX",
+  "socket": "AM4",
+  "ddr": 4,
+  "dimm_slots": 4,
+  "pcb_mm": [
+   244.0,
+   244.0,
+   1.6
+  ],
+  "cpu_plane_z_mm": 6.0,
+  "slot_pcie_origin_mm": [
+   95.386,
+   75.734,
+   9.5
+  ],
+  "frame": "board-local: x across (I/O at x=0), y up, z out of PCB",
+  "bbox_mm": {
+   "min": [
+    -0.0,
+    0.0,
+    0.0
+   ],
+   "max": [
+    244.0,
+    244.0,
+    26.6
+   ],
+   "size": [
+    244.0,
+    244.0,
+    26.6
+   ]
+  }
+ },
+ "motherboard/asus-prime-b760m-k-d4": {
+  "kind": "motherboard",
+  "ff": "mATX",
+  "socket": "LGA1700",
+  "ddr": 4,
+  "dimm_slots": 2,
+  "pcb_mm": [
+   244.0,
+   244.0,
+   1.6
+  ],
+  "cpu_plane_z_mm": 6.0,
+  "slot_pcie_origin_mm": [
+   95.386,
+   75.734,
+   9.5
+  ],
+  "frame": "board-local: x across (I/O at x=0), y up, z out of PCB",
+  "bbox_mm": {
+   "min": [
+    -0.0,
+    0.0,
+    0.0
+   ],
+   "max": [
+    244.0,
+    244.0,
+    25.6
+   ],
+   "size": [
+    244.0,
+    244.0,
+    25.6
+   ]
+  }
+ },
+ "motherboard/msi-pro-b760m-p-ddr4": {
+  "kind": "motherboard",
+  "ff": "mATX",
+  "socket": "LGA1700",
+  "ddr": 4,
+  "dimm_slots": 4,
+  "pcb_mm": [
+   244.0,
+   244.0,
+   1.6
+  ],
+  "cpu_plane_z_mm": 6.0,
+  "slot_pcie_origin_mm": [
+   95.386,
+   75.734,
+   9.5
+  ],
+  "frame": "board-local: x across (I/O at x=0), y up, z out of PCB",
+  "bbox_mm": {
+   "min": [
+    -0.0,
+    0.0,
+    0.0
+   ],
+   "max": [
+    244.0,
+    244.0,
+    25.6
+   ],
+   "size": [
+    244.0,
+    244.0,
+    25.6
+   ]
+  }
+ },
+ "motherboard/msi-mag-b760m-mortar-wifi": {
+  "kind": "motherboard",
+  "ff": "mATX",
+  "socket": "LGA1700",
+  "ddr": 5,
+  "dimm_slots": 4,
+  "pcb_mm": [
+   244.0,
+   244.0,
+   1.6
+  ],
+  "cpu_plane_z_mm": 6.0,
+  "slot_pcie_origin_mm": [
+   95.386,
+   75.734,
+   9.5
+  ],
+  "frame": "board-local: x across (I/O at x=0), y up, z out of PCB",
+  "bbox_mm": {
+   "min": [
+    -0.0,
+    0.0,
+    0.0
+   ],
+   "max": [
+    244.0,
+    244.0,
+    27.6
+   ],
+   "size": [
+    244.0,
+    244.0,
+    27.6
+   ]
+  }
+ },
+ "motherboard/gigabyte-h610m-h-v2-ddr4": {
+  "kind": "motherboard",
+  "ff": "mATX",
+  "socket": "LGA1700",
+  "ddr": 4,
+  "dimm_slots": 2,
+  "pcb_mm": [
+   244.0,
+   244.0,
+   1.6
+  ],
+  "cpu_plane_z_mm": 6.0,
+  "slot_pcie_origin_mm": [
+   95.386,
+   75.734,
+   9.5
+  ],
+  "frame": "board-local: x across (I/O at x=0), y up, z out of PCB",
+  "bbox_mm": {
+   "min": [
+    -0.0,
+    0.0,
+    0.0
+   ],
+   "max": [
+    244.0,
+    244.0,
+    25.6
+   ],
+   "size": [
+    244.0,
+    244.0,
+    25.6
+   ]
+  }
+ },
+ "motherboard/asrock-b650m-hdv-m2": {
+  "kind": "motherboard",
+  "ff": "mATX",
+  "socket": "AM5",
+  "ddr": 5,
+  "dimm_slots": 2,
+  "pcb_mm": [
+   244.0,
+   244.0,
+   1.6
+  ],
+  "cpu_plane_z_mm": 6.0,
+  "slot_pcie_origin_mm": [
+   95.386,
+   75.734,
+   9.5
+  ],
+  "frame": "board-local: x across (I/O at x=0), y up, z out of PCB",
+  "bbox_mm": {
+   "min": [
+    -0.0,
+    0.0,
+    0.0
+   ],
+   "max": [
+    244.0,
+    244.0,
+    25.6
+   ],
+   "size": [
+    244.0,
+    244.0,
+    25.6
+   ]
+  }
+ },
+ "motherboard/asus-tuf-gaming-b650-plus-wifi": {
+  "kind": "motherboard",
+  "ff": "ATX",
+  "socket": "AM5",
+  "ddr": 5,
+  "dimm_slots": 4,
+  "pcb_mm": [
+   244.0,
+   305.0,
+   1.6
+  ],
+  "cpu_plane_z_mm": 5.5,
+  "slot_pcie_origin_mm": [
+   95.386,
+   116.414,
+   9.5
+  ],
+  "frame": "board-local: x across (I/O at x=0), y up, z out of PCB",
+  "bbox_mm": {
+   "min": [
+    -0.0,
+    0.0,
+    0.0
+   ],
+   "max": [
+    244.0,
+    305.0,
+    29.6
+   ],
+   "size": [
+    244.0,
+    305.0,
+    29.6
+   ]
+  }
+ }
+}
